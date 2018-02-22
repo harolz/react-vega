@@ -9,14 +9,15 @@
     "url": "https://github.com/kristw/react-vega/issues"
   },
   "dependencies": {
-    "prop-types": "^15.5.8"
+    "prop-types": "^15.5.8",
+    "webpack": "^3.11.0"
   },
   "peerDependencies": {
     "react": ">=15.5.4 || ^16.0.0",
-    "@buoy/vega": "https: //github.com/BuoyHealth/vega.git#v4.0.1"
+    "vega": "https://github.com/BuoyHealth/vega.git#v4.0.2"
   },
   "devDependencies": {
-    "@buoy/vega": "https: //github.com/BuoyHealth/vega.git#v4.0.1",
+    "vega": "https://github.com/BuoyHealth/vega.git#v4.0.2",
     "gh-pages": "^0.12.0",
     "lazynerd-devtools": "0.0.2",
     "np": "^2.16.0",
